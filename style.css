@@ -122,7 +122,7 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    border:1px solid #DBDBDB;
+    border:1px solid #DBDBDB;   
     overflow: hidden;
 }
 
@@ -224,9 +224,12 @@ body{
 /*img do post do feed*/
 .post > img{
     object-fit:cover;
-    background-color: green;
     height: 612px;
     width:612px;
+}
+
+.post video{
+    width:100%;
 }
 
 /*feed > .action-post*/
@@ -392,6 +395,9 @@ body{
 }
 /*sidebar css end*/
 
+.footer{
+    display:none;
+}
 
 /**************************************/
 /*RESPONSIVE*/
@@ -401,10 +407,12 @@ body{
     }
 }
 @media (max-width:935px){
+
     .sidebar{
         display:none;
     }
 
+    .footer,
     .nav-bar-mobile{
         display: none;
     }

@@ -65,10 +65,6 @@ body{
     border-left: 2px solid #DBDBDB;
 }
 
-.line_horizontal{
-    border-left: 2px solid #DBDBDB;
-    width:100%;
-}
 
 
 .search-box{
@@ -115,7 +111,6 @@ body{
     display:flex;
     flex-direction: column;
     align-content: center;
-    
 }
 
 .nav-stories{
@@ -190,6 +185,7 @@ body{
     border:1px solid #DBDBDB;
     background-color: #FFFFFF;
     margin-bottom: 60px;
+    width:100%;
 }
 
 /*cabecalho do post no feed*/
@@ -229,8 +225,8 @@ body{
 /*img do post do feed*/
 .post > img{
     object-fit:cover;
-    height: 612px;
-    width:612px;
+    height: 614px;
+    width:614px;
 }
 
 .post video{
@@ -447,6 +443,7 @@ body{
     align-items: center;
     width:100%;
     box-sizing: border-box;
+    border-top:1px solid #DBDBDB;;
 }
 
 
